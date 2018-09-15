@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Viking';
+    src: url('fonts/pr_viking_main.ttf') format('truetype');
+}
+
+h1{
+    font-family: Viking;
+}
+
