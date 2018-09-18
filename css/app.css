@@ -7,3 +7,52 @@ h1{
     font-family: Viking;
 }
 
+html, body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #A8D1EF;
+}
+
+.section-container{
+    max-height: 100vh;
+    margin: 0px;
+    padding: 0px; 
+    overflow: hidden;
+}
+
+nav{
+    position: absolute;
+    height: 40px;
+    width: 100vw;
+    background-color: yellow;
+}
+
+.section{
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.landing-image-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.landing-image{
+    position: absolute;
+    height: 100vh;
+}
+
+.landing-logo{
+    position: absolute;
+    height: 30vh;
+}
+
+.landing-effect{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
