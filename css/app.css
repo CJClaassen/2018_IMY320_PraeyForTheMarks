@@ -27,6 +27,12 @@ nav{
     background-color: yellow;
 }
 
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
 .section{
     min-height: 100vh;
     overflow: hidden;
@@ -55,4 +61,23 @@ nav{
     position: absolute;
     height: 100vh;
     width: 100vw;
+}
+
+.MediaImage{
+    width: 100%;
+    height: 100%;
+}
+
+.SectionHeading{
+    font-family: Viking;
+}
+
+.VideoWrapper{
+    width: 100%;
+    height: 640px;
+}
+
+.ImageWrapper{
+    width: 100%; 
+    height: 300px;
 }
