@@ -18,6 +18,10 @@ html, body{
     overflow-x: hidden;
 }
 
+a{
+    text-decoration: none;
+}
+
 nav{
     position: absolute;
     height: 60px;
@@ -36,7 +40,6 @@ nav{
 .nav-link{
     margin-left: 40px;
     margin-right: 40px;
-    text-decoration: none;
     font-size: 2rem;
     color: #fff;
     letter-spacing: 4px;
@@ -62,6 +65,12 @@ iframe{
 .section{
     min-height: 100vh;
     overflow: hidden;
+}
+
+.section p{
+    margin-left: 10rem;
+    margin-right: 10rem;
+    text-align: justify;
 }
 
 .section h1{
@@ -132,6 +141,7 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-content: flex-start;
     margin-left: 30px;
     margin-right: 30px;
     width: 33.3%;
@@ -143,6 +153,7 @@ footer{
     letter-spacing: 4px;
     width: 100%;
     text-align: center;
+    margin-bottom: 0px;
 }
 
 .footer-item h4{
@@ -154,8 +165,31 @@ footer{
     margin-top: 40px;
 }
 
+.footer-links{
+    list-style: none;
+    padding: 0px;
+}
+
+.footer-links a{
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.2rem;
+    color: #FFF;
+    border-bottom-color: #27495D;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
+
+.footer-links a:hover{
+    /*text-decoration: underline;
+    text-decoration-color: rgb(190, 0, 0);*/
+    color: rgb(190, 0, 0);
+    /*border-bottom-color: rgb(190, 0, 0);
+    border-bottom-width: 2px;
+    border-bottom-style: solid;*/
+}
+
 .footer-social{
-    margin: -10px;
+    margin: 20px;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -174,4 +208,43 @@ footer{
     margin-right: 10px;
     width: 50px;
     height: 50px;
+}
+
+.footer-form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer-input{
+    width: 65%;
+    font-size: 16px;
+    font-family: 'Mukta', sans-serif;
+    padding: 6px;
+    border-color: #27495D;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.footer-input:focus{
+    border-color: rgb(190, 0, 0);
+}
+
+.footer-button{
+    margin-top: 10px;
+    min-width: 65%;
+    padding: 6px;
+    font-family: 'Mukta', sans-serif;
+    font-size: 18px;
+    background-color: #A8D1EF;
+    border-color: #27495D;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.footer-button:hover{
+    color: #FFF;
+    background-color: #5FB2E3;
+    cursor: pointer;
 }
