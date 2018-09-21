@@ -56,6 +56,12 @@ nav{
     margin-right: 40px;
 }
 
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
 .section{
     min-height: 100vh;
     overflow: hidden;
@@ -96,6 +102,24 @@ nav{
     width: 100vw;
 }
 
+.MediaImage{
+    width: 100%;
+    height: 100%;
+}
+
+.SectionHeading{
+    font-family: Viking;
+}
+
+.VideoWrapper{
+    width: 100%;
+    height: 640px;
+}
+
+.ImageWrapper{
+    width: 100%; 
+    height: 300px;
+}
 .divider{
     display: flex;
     justify-content: center;
